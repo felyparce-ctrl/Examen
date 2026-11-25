@@ -1,0 +1,120 @@
+/* PAGINA PRINCIPAL INDEX */
+
+body {
+    margin: 0;
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.opcion {
+    width: 97px;
+    height: 91px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 12px;
+}
+
+.ejercicio1 {
+    background-color: #b000b5;
+}
+
+.ejercicio2 {
+    background-color: #80c91b;
+}
+
+body.pagina-formulario {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #eeeeee;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-formulario {
+    background-color: white;
+    width: 375px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    transform: translate(-1080px, -460px);;
+   }
+
+.tarjeta-formulario h1 {
+    text-align: center;
+    font-size: 23px;
+    margin: 15px 0;
+    color: #333333;
+}
+
+.tarjeta-formulario label {
+    display: block;
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+    margin-top: 17px;
+    margin-bottom: 5px;
+}
+
+.tarjeta-formulario input {
+    width: 100%;
+    height: 28px;
+    padding: 5px 8px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.tarjeta-formulario button {
+    display: block;
+    margin: 12px auto;
+    padding: 7px 18px;
+    background-color: #087bfa;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.tarjeta-formulario button:hover {
+    background-color: #0565ce;
+}
+
+.resultado {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #333333;
+    line-height: 1.4;
+}
+
+.resultado p {
+    margin: 10px 0;
+}
+
+.enlace-volver {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #087bfa;
+    text-decoration: none;
+    font-size: 13px;
+}
